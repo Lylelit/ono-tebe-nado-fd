@@ -6,8 +6,8 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 0px 96px 0px;
   margin: 0px 50px 0px 50px;
+  padding: 92px 0px 96px 0px;
 }
 
 .header__menu {
@@ -20,15 +20,15 @@
 }
 
 .header__menu-item {
+  padding-left:5px;
   text-decoration: underline solid black 0.5px;
   text-underline-offset: 4px;
   list-style-type: circle;
-  padding-left:5px;
-}  
+}
 
 .header__menu-item_first-child {
-  list-style-type: none;
   padding-left:0px;
+  list-style-type: none;
 }
 
 .header__menu-item__active {
@@ -42,11 +42,11 @@
 
 .address {
   padding-left: 192px;
-  line-height: 1.37em;
   color:black;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
+  line-height: 1.37em;
 }
 
 .address__link {
@@ -57,11 +57,11 @@
 .cover {
   position: relative;
   min-height: 757px;
+  padding: 165px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 165px 50px 50px;
 }
 
 .overlay {
@@ -74,17 +74,17 @@
 }
 
 .cover__title {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  position: relative;
-  z-index: 1;
+  width: 100%;
   color:white;
   font-weight: 700;
   font-size: 100px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  width: 100%;
 }
 
 .cover__title-text {
@@ -115,10 +115,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 22px;
-  color:white;
-  text-transform: uppercase;
   padding-top: 104px;
+  color:white;
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 .cover__description__title {
@@ -130,10 +130,10 @@
   justify-content: center;
   align-items: center;
   border: 1px solid #fff;
+  padding: 12px 32px;
   color:white;
   text-transform: uppercase;
   background: rgb(0 0 0/0.0);
-  padding: 12px 32px;
 }
 
 .lots {
@@ -190,10 +190,10 @@
 .lot__title {
   font-weight: 700;
   font-size: 22px;
+  line-height: 1.19em;
   text-decoration: underline solid white 1px;
   text-underline-offset: 3px;
   text-transform: uppercase;
-  line-height: 1.19em;
 }
 
 .lot__text {
@@ -210,7 +210,7 @@
   font-size: 20px;
   text-decoration: underline solid black 1px;
   text-underline-offset: 5px;
-  text-transform:lowercase; 
+  text-transform:lowercase;
 }
 
 .about {
@@ -270,9 +270,9 @@
 }
 
 .address_footer {
+  padding-bottom: 82px;
   padding-left: 0px;
   line-height: 1.35em;
-  padding-bottom: 82px;
 }
 
 .footer__menu {
