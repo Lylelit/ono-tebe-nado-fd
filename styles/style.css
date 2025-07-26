@@ -31,7 +31,7 @@
   list-style-type: none;
 }
 
-.header__menu-item__active {
+.header__menu-item_active {
   text-decoration: none;
 }
 
